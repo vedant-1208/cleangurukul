@@ -1,0 +1,15 @@
+{
+  "short_name": "Gurukul Cleanliness",
+  "name": "Shantigram Gurukul — Cleanliness Management System",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#FFFBEB",
+  "theme_color": "#C2410C",
+  "display": "standalone"
+}
