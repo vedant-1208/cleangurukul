@@ -92,20 +92,3 @@ npm run build
 
 ---
 
-## 🌐 Deploy to Netlify
-
-1. Push your repository to GitHub.
-2. Log in to [Netlify](https://www.netlify.com/) and click **Add new site** → **Import an existing project**.
-3. Select your GitHub repository.
-4. Confirm build settings:
-   - **Build command**: `npm run build`
-   - **Publish directory**: `dist`
-5. Click **Environment variables** and enter:
-   - `VITE_SUPABASE_URL`
-   - `VITE_SUPABASE_ANON_KEY`
-   - `VITE_CLOUDINARY_CLOUD_NAME`
-   - `VITE_CLOUDINARY_UPLOAD_PRESET`
-   - `VITE_APP_NAME`
-   - `VITE_GURUKUL_SITE_URL`
-6. Click **Deploy Site**.
-7. *(Optional)* Add custom domain `hostelcare.shantigramgurukul.org` under **Domain management**.
